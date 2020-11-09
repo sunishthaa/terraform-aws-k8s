@@ -13,7 +13,7 @@ variable "random_cluster_suffix" {
 variable "aws_region" {
   description = "AWS region (e.g. `eu-central-1` => Frankfurt)"
   type        = string
-  default     = "eu-central-1"
+  default     = "us-east-1"
 }
 
 variable "aws_profile" {
@@ -61,7 +61,7 @@ variable "aws_cluster_name" {
 variable "aws_instance_type" {
   description = "AWS EC2 Instance Type (e.g. `t3.medium`)"
   type        = string
-  default     = "t3.medium"
+  default     = "t2.micro"
 }
 
 # variable "aws_eks_version" {
